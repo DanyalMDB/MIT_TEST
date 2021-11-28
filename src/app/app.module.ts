@@ -77,7 +77,8 @@ import { InternalInfoComponent } from './internal-info/internal-info.component';
       { path: 'international', component: InternationalComponent },
       // { path: 'international', loadChildren: './international/international.module#InternationalModule' },
       { path: 'admin', component: AdminComponent, canActivate: [JwtGuard] },
-      { path: 'login', component: LoginComponent }
+      { path: 'login', component: LoginComponent },
+      { path: 'internalinfo', component: InternalInfoComponent }
     ]),
     InternationalModule,
     FlexLayoutModule,
