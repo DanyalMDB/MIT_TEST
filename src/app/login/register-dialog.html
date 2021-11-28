@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Hello {{data.username}}, please register with the following data</h1>
+<div mat-dialog-content>
+  <p>Enter your username, email and password</p>
+  <mat-form-field>
+    <mat-label>Username</mat-label>
+    <input matInput [(ngModel)]="data.username">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>E-Mail</mat-label>
+    <input matInput [(ngModel)]="data.email">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input matInput [(ngModel)]="data.password">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Password confirm</mat-label>
+    <input matInput [(ngModel)]="data.password">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button mat-dialog-close="data.username" cdkFocusInitial>Ok</button>
+</div>

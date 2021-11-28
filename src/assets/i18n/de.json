@@ -1,0 +1,17 @@
+{
+    "languageView": "Sprache",
+    "currentLanguage": "Deutsch",
+    "cStartText": "Willkommen!",
+    "cRooms": "Räume",
+    "cRoomsText": "Aktuelle Buchung des Raums mit ",
+    "cRoomSelect": "Raum wählen",
+    "cNavigation": "Navigation",
+    "cNavigationText": "Navigation funktioniert",
+    "cInternational": "International",
+    "cInternationalText": "International funktioniert",
+    "cLogin": "Login",
+    "cLoginText": "Bitte geben Sie Ihre E-Mail und das Passwort ein:",
+    "cInfo": "Interne Informationen",
+    "cNews": "Nachrichten",
+    "cEvents": "Veranstaltungen"
+}
